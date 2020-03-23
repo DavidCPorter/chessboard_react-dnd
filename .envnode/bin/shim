@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/dporter/projects/chess/.envnode/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/dporter/projects/chess/.envnode
+export npm_config_prefix=/Users/dporter/projects/chess/.envnode
+exec .envnode/bin/node "$@"
